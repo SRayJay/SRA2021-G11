@@ -101985,7 +101985,7 @@
 													"font": "Arial;13;0",
 													"left": 784,
 													"top": 400,
-													"width": 104,
+													"width": 117,
 													"height": 13,
 													"text": "(from Interaction1)"
 												},
@@ -102086,7 +102086,7 @@
 													"font": "Arial;13;0",
 													"left": -128,
 													"top": -32,
-													"width": 104,
+													"width": 117,
 													"height": 13,
 													"text": "(from Interaction1)"
 												},
@@ -102187,7 +102187,7 @@
 													"font": "Arial;13;0",
 													"left": 352,
 													"top": -80,
-													"width": 104,
+													"width": 117,
 													"height": 13,
 													"text": "(from Interaction1)"
 												},
@@ -102288,7 +102288,7 @@
 													"font": "Arial;13;0",
 													"left": 64,
 													"top": -96,
-													"width": 104,
+													"width": 117,
 													"height": 13,
 													"text": "(from Interaction1)"
 												},
@@ -102389,7 +102389,7 @@
 													"font": "Arial;13;0",
 													"left": 112,
 													"top": -48,
-													"width": 104,
+													"width": 117,
 													"height": 13,
 													"text": "(from Interaction1)"
 												},
@@ -102490,7 +102490,7 @@
 													"font": "Arial;13;0",
 													"left": -208,
 													"top": 48,
-													"width": 104,
+													"width": 117,
 													"height": 13,
 													"text": "(from Interaction1)"
 												},
@@ -105636,7 +105636,8 @@
 								}
 							}
 						}
-					]
+					],
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -105808,7 +105809,8 @@
 								}
 							}
 						}
-					]
+					],
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -105816,7 +105818,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF5dZa8mqy6ntQ="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -105824,7 +105827,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF5dZa8mqy6ntQ="
 					},
-					"name": "Role4"
+					"name": "Role4",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -105832,7 +105836,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF5dZa8mqy6ntQ="
 					},
-					"name": "Role5"
+					"name": "Role5",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -105869,7 +105874,8 @@
 								}
 							}
 						}
-					]
+					],
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -105906,7 +105912,8 @@
 								}
 							}
 						}
-					]
+					],
+					"type": ""
 				}
 			]
 		},
@@ -106007,7 +106014,7 @@
 											"containerExtending": true,
 											"left": -44,
 											"top": -16,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -106035,7 +106042,7 @@
 									"containerExtending": true,
 									"left": 52,
 									"top": 52,
-									"width": 91,
+									"width": 94,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/QbaWM6o="
@@ -106154,7 +106161,7 @@
 											"containerExtending": true,
 											"left": 60,
 											"top": -116,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -106467,7 +106474,7 @@
 											"containerExtending": true,
 											"left": 104,
 											"top": -176,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -106493,7 +106500,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 112,
-									"width": 84,
+									"width": 89,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/QratdD4="
@@ -106753,7 +106760,7 @@
 											"containerChangeable": true,
 											"containerExtending": true,
 											"left": 1500,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -106869,7 +106876,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"left": -12,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -106993,7 +107000,7 @@
 											"containerExtending": true,
 											"left": 48,
 											"top": -12,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -107180,7 +107187,7 @@
 											"containerExtending": true,
 											"left": 24,
 											"top": 24,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -107203,7 +107210,7 @@
 									"containerExtending": true,
 									"left": 184,
 									"top": 308,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Q7bRTrE="
@@ -107367,7 +107374,7 @@
 											"containerExtending": true,
 											"left": 96,
 											"top": -48,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -107390,7 +107397,7 @@
 									"containerExtending": true,
 									"left": 252,
 									"top": 352,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Q7bbVuo="
@@ -107554,7 +107561,7 @@
 											"containerExtending": true,
 											"left": 132,
 											"top": -108,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -107577,7 +107584,7 @@
 									"containerExtending": true,
 									"left": 316,
 									"top": 400,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Q7bl4s8="
@@ -107741,7 +107748,7 @@
 											"containerExtending": true,
 											"left": 180,
 											"top": -180,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -107764,7 +107771,7 @@
 									"containerExtending": true,
 									"left": 380,
 									"top": 448,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Q7bvGAo="
@@ -107927,7 +107934,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": -108,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -107949,7 +107956,7 @@
 									"containerExtending": true,
 									"left": 440,
 									"top": 496,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Q7b5hxw="
@@ -109168,7 +109175,7 @@
 											"containerExtending": true,
 											"left": 972,
 											"top": 60,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -109193,7 +109200,7 @@
 									"containerExtending": true,
 									"left": 380,
 									"top": 580,
-									"width": 142,
+									"width": 149,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLcu+60="
@@ -109293,7 +109300,7 @@
 											"containerExtending": true,
 											"left": 120,
 											"top": 24,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -109316,7 +109323,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 584,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLc12uo="
@@ -109577,7 +109584,7 @@
 											"containerExtending": true,
 											"left": -60,
 											"top": -336,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -109600,7 +109607,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 204,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLdDWS4="
@@ -109764,7 +109771,7 @@
 											"containerExtending": true,
 											"left": -60,
 											"top": -420,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -109787,7 +109794,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 256,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLdN3Y8="
@@ -109951,7 +109958,7 @@
 											"containerExtending": true,
 											"left": -60,
 											"top": -480,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -109974,7 +109981,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 308,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLdXxGI="
@@ -110138,7 +110145,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -564,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -110161,7 +110168,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 360,
-									"width": 131,
+									"width": 140,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLdhBro="
@@ -110325,7 +110332,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -624,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -110348,7 +110355,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 416,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLdrkXs="
@@ -110512,7 +110519,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -672,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -110535,7 +110542,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 472,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLd1m5U="
@@ -111269,7 +111276,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": 504,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -111293,7 +111300,7 @@
 									"containerExtending": true,
 									"left": 556,
 									"top": 540,
-									"width": 102,
+									"width": 110,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLeWEPM="
@@ -111392,7 +111399,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": 504,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -111414,7 +111421,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 544,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RLedhMk="
@@ -111577,7 +111584,7 @@
 											"containerExtending": true,
 											"left": -12,
 											"top": 420,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -111600,7 +111607,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 592,
-									"width": 98,
+									"width": 109,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RbenCaU="
@@ -111764,7 +111771,7 @@
 											"containerExtending": true,
 											"left": -12,
 											"top": 348,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -111787,7 +111794,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 648,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RbexkCQ="
@@ -111951,7 +111958,7 @@
 											"containerExtending": true,
 											"left": -12,
 											"top": 312,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -111974,7 +111981,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 704,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Rbe7fyE="
@@ -112137,7 +112144,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": 252,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -112159,7 +112166,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 760,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RbfFfT8="
@@ -112795,7 +112802,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": 144,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -112819,7 +112826,7 @@
 									"containerExtending": true,
 									"left": 56,
 									"top": 644,
-									"width": 108,
+									"width": 114,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Rbfii9I="
@@ -112919,7 +112926,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -48,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -112942,7 +112949,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 644,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Rbfpz5I="
@@ -113107,7 +113114,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -108,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -113130,7 +113137,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 708,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RbfzAUc="
@@ -113295,7 +113302,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -192,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -113318,7 +113325,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 764,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Rbf9rpM="
@@ -113483,7 +113490,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -252,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -113506,7 +113513,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 820,
-									"width": 89,
+									"width": 97,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RbgHO90="
@@ -113671,7 +113678,7 @@
 											"containerExtending": true,
 											"left": -60,
 											"top": -324,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -113694,7 +113701,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 876,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RrgREEw="
@@ -114429,7 +114436,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"left": -12,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -114453,7 +114460,7 @@
 									"containerExtending": true,
 									"left": 556,
 									"top": 28,
-									"width": 103,
+									"width": 109,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RrgyvPU="
@@ -114552,7 +114559,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"left": 252,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -114622,7 +114629,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 60,
-									"width": 123,
+									"width": 133,
 									"height": 22
 								},
 								{
@@ -114756,7 +114763,7 @@
 											"containerExtending": true,
 											"left": 276,
 											"top": 120,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -114779,7 +114786,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 96,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RrhEYwk="
@@ -114944,7 +114951,7 @@
 											"containerExtending": true,
 											"left": 324,
 											"top": 168,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -114967,7 +114974,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 148,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RrhOxoE="
@@ -115410,7 +115417,7 @@
 											"fillColor": "#e2e2e2",
 											"font": "Arial;12;0",
 											"containerExtending": true,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -115531,7 +115538,7 @@
 											"visible": false,
 											"font": "Arial;12;0",
 											"containerExtending": true,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -115552,7 +115559,7 @@
 									"containerExtending": true,
 									"left": 724,
 									"top": 832,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/RrhqtE4="
@@ -115713,7 +115720,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": -60,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -115735,7 +115742,7 @@
 									"containerExtending": true,
 									"left": 724,
 									"top": 888,
-									"width": 85,
+									"width": 92,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/Rrh0B7A="
@@ -116685,7 +116692,7 @@
 											"containerExtending": true,
 											"left": 217,
 											"top": 89,
-											"width": 71,
+											"width": 76,
 											"height": 12,
 											"text": "«stereotype»"
 										},
@@ -116699,7 +116706,7 @@
 											"containerExtending": true,
 											"left": 217,
 											"top": 103,
-											"width": 71,
+											"width": 76,
 											"height": 12,
 											"text": "entity"
 										},
@@ -116714,7 +116721,7 @@
 											"containerExtending": true,
 											"left": -1065,
 											"top": -270,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -116737,7 +116744,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 84,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/SLjArNk="
@@ -116808,7 +116815,7 @@
 							"containerExtending": true,
 							"left": 212,
 							"top": 84,
-							"width": 81,
+							"width": 86,
 							"height": 37,
 							"nameCompartment": {
 								"$ref": "AAAAAAF5da1/SLjEHUw="
@@ -116890,7 +116897,7 @@
 											"containerExtending": true,
 											"left": -489,
 											"top": -414,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -117083,7 +117090,7 @@
 											"containerExtending": true,
 											"left": 217,
 											"top": 37,
-											"width": 71,
+											"width": 76,
 											"height": 12,
 											"text": "«stereotype»"
 										},
@@ -117097,7 +117104,7 @@
 											"containerExtending": true,
 											"left": 217,
 											"top": 51,
-											"width": 71,
+											"width": 76,
 											"height": 12,
 											"text": "control"
 										},
@@ -117112,7 +117119,7 @@
 											"containerExtending": true,
 											"left": -336,
 											"top": -312,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -117135,7 +117142,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 32,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/SLjU2FY="
@@ -117206,7 +117213,7 @@
 							"containerExtending": true,
 							"left": 212,
 							"top": 32,
-							"width": 81,
+							"width": 86,
 							"height": 37,
 							"nameCompartment": {
 								"$ref": "AAAAAAF5da1/SLjYcIE="
@@ -117367,7 +117374,7 @@
 											"containerExtending": true,
 											"left": 217,
 											"top": 141,
-											"width": 71,
+											"width": 76,
 											"height": 12,
 											"text": "«stereotype»"
 										},
@@ -117381,7 +117388,7 @@
 											"containerExtending": true,
 											"left": 217,
 											"top": 155,
-											"width": 71,
+											"width": 76,
 											"height": 12,
 											"text": "boundary"
 										},
@@ -117396,7 +117403,7 @@
 											"containerExtending": true,
 											"left": 96,
 											"top": -360,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -117419,7 +117426,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 136,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da1/SLjieGY="
@@ -117490,7 +117497,7 @@
 							"containerExtending": true,
 							"left": 212,
 							"top": 136,
-							"width": 81,
+							"width": 86,
 							"height": 37,
 							"nameCompartment": {
 								"$ref": "AAAAAAF5da1/SLjmMR8="
@@ -118215,7 +118222,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -168,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -118340,7 +118347,7 @@
 											"containerExtending": true,
 											"left": 108,
 											"top": -48,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -118527,7 +118534,7 @@
 											"containerExtending": true,
 											"left": 108,
 											"top": -84,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -118714,7 +118721,7 @@
 											"containerExtending": true,
 											"left": 120,
 											"top": -168,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -119084,7 +119091,7 @@
 											"containerExtending": true,
 											"left": -702,
 											"top": -954,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -119507,7 +119514,7 @@
 											"containerExtending": true,
 											"left": -44,
 											"top": -16,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -119535,7 +119542,7 @@
 									"containerExtending": true,
 									"left": 52,
 									"top": 52,
-									"width": 91,
+									"width": 94,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vFL95JAA="
@@ -119654,7 +119661,7 @@
 											"containerExtending": true,
 											"left": 60,
 											"top": -116,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -119967,7 +119974,7 @@
 											"containerExtending": true,
 											"left": 104,
 											"top": -176,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -119993,7 +120000,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 112,
-									"width": 84,
+									"width": 89,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vFb+QQCo="
@@ -120253,7 +120260,7 @@
 											"containerChangeable": true,
 											"containerExtending": true,
 											"left": 1500,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -120369,7 +120376,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"left": -12,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -120493,7 +120500,7 @@
 											"containerExtending": true,
 											"left": 48,
 											"top": -12,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -120680,7 +120687,7 @@
 											"containerExtending": true,
 											"left": 24,
 											"top": 24,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -120703,7 +120710,7 @@
 									"containerExtending": true,
 									"left": 184,
 									"top": 308,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vFb+0NkM="
@@ -120867,7 +120874,7 @@
 											"containerExtending": true,
 											"left": 96,
 											"top": -48,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -120890,7 +120897,7 @@
 									"containerExtending": true,
 									"left": 252,
 									"top": 352,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vFb++ZBU="
@@ -121054,7 +121061,7 @@
 											"containerExtending": true,
 											"left": 132,
 											"top": -108,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -121077,7 +121084,7 @@
 									"containerExtending": true,
 									"left": 316,
 									"top": 400,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vFb/IAg4="
@@ -121241,7 +121248,7 @@
 											"containerExtending": true,
 											"left": 180,
 											"top": -180,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -121264,7 +121271,7 @@
 									"containerExtending": true,
 									"left": 380,
 									"top": 448,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vFb/S8qs="
@@ -121427,7 +121434,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": -108,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -121449,7 +121456,7 @@
 									"containerExtending": true,
 									"left": 440,
 									"top": 496,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vFb/cXOA="
@@ -122668,7 +122675,7 @@
 											"containerExtending": true,
 											"left": 972,
 											"top": 60,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -122693,7 +122700,7 @@
 									"containerExtending": true,
 									"left": 380,
 									"top": 580,
-									"width": 142,
+									"width": 149,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8AR/ZE="
@@ -122793,7 +122800,7 @@
 											"containerExtending": true,
 											"left": 120,
 											"top": 24,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -122816,7 +122823,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 584,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8AYVw0="
@@ -123077,7 +123084,7 @@
 											"containerExtending": true,
 											"left": -60,
 											"top": -336,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -123100,7 +123107,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 204,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8AmbYo="
@@ -123264,7 +123271,7 @@
 											"containerExtending": true,
 											"left": -60,
 											"top": -420,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -123287,7 +123294,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 256,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8AwJJ8="
@@ -123451,7 +123458,7 @@
 											"containerExtending": true,
 											"left": -60,
 											"top": -480,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -123474,7 +123481,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 308,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8A6Dps="
@@ -123638,7 +123645,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -564,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -123661,7 +123668,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 360,
-									"width": 131,
+									"width": 140,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8BEJv4="
@@ -123825,7 +123832,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -624,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -123848,7 +123855,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 416,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8BOzK0="
@@ -124012,7 +124019,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -672,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -124035,7 +124042,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 472,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8BYw1w="
@@ -124769,7 +124776,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": 504,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -124793,7 +124800,7 @@
 									"containerExtending": true,
 									"left": 556,
 									"top": 540,
-									"width": 102,
+									"width": 110,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8B5FQM="
@@ -124892,7 +124899,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": 504,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -124914,7 +124921,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 544,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vF8CAHrw="
@@ -125077,7 +125084,7 @@
 											"containerExtending": true,
 											"left": -12,
 											"top": 420,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -125100,7 +125107,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 592,
-									"width": 98,
+									"width": 109,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMCK+aI="
@@ -125264,7 +125271,7 @@
 											"containerExtending": true,
 											"left": -12,
 											"top": 348,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -125287,7 +125294,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 648,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMCUaVE="
@@ -125451,7 +125458,7 @@
 											"containerExtending": true,
 											"left": -12,
 											"top": 312,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -125474,7 +125481,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 704,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMCeReA="
@@ -125637,7 +125644,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": 252,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -125659,7 +125666,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 760,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMCogWw="
@@ -126295,7 +126302,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": 144,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -126319,7 +126326,7 @@
 									"containerExtending": true,
 									"left": 56,
 									"top": 644,
-									"width": 108,
+									"width": 114,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMDF8Ng="
@@ -126419,7 +126426,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -48,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -126442,7 +126449,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 644,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMDMByQ="
@@ -126607,7 +126614,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -108,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -126630,7 +126637,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 708,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMDWOhU="
@@ -126795,7 +126802,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -192,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -126818,7 +126825,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 764,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMDgFw8="
@@ -126983,7 +126990,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -252,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -127006,7 +127013,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 820,
-									"width": 89,
+									"width": 97,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMDqWqM="
@@ -127171,7 +127178,7 @@
 											"containerExtending": true,
 											"left": -60,
 											"top": -324,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -127194,7 +127201,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 876,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGMD0anc="
@@ -127929,7 +127936,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"left": -12,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -127953,7 +127960,7 @@
 									"containerExtending": true,
 									"left": 556,
 									"top": 28,
-									"width": 103,
+									"width": 109,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGcEVLMk="
@@ -128052,7 +128059,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"left": 252,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -128122,7 +128129,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 60,
-									"width": 123,
+									"width": 133,
 									"height": 22
 								},
 								{
@@ -128256,7 +128263,7 @@
 											"containerExtending": true,
 											"left": 276,
 											"top": 120,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -128279,7 +128286,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 96,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGcEnUw0="
@@ -128444,7 +128451,7 @@
 											"containerExtending": true,
 											"left": 324,
 											"top": 168,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -128467,7 +128474,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 148,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGcExens="
@@ -128910,7 +128917,7 @@
 											"fillColor": "#e2e2e2",
 											"font": "Arial;12;0",
 											"containerExtending": true,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -129031,7 +129038,7 @@
 											"visible": false,
 											"font": "Arial;12;0",
 											"containerExtending": true,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -129052,7 +129059,7 @@
 									"containerExtending": true,
 									"left": 724,
 									"top": 832,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGcFNiuw="
@@ -129213,7 +129220,7 @@
 											"font": "Arial;12;0",
 											"containerExtending": true,
 											"top": -60,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -129235,7 +129242,7 @@
 									"containerExtending": true,
 									"left": 724,
 									"top": 888,
-									"width": 85,
+									"width": 92,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGcFXN1A="
@@ -130214,7 +130221,7 @@
 											"containerExtending": true,
 											"left": -1065,
 											"top": -270,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -130237,7 +130244,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 84,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGsGjRhg="
@@ -130390,7 +130397,7 @@
 											"containerExtending": true,
 											"left": -489,
 											"top": -414,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -130612,7 +130619,7 @@
 											"containerExtending": true,
 											"left": -336,
 											"top": -312,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -130635,7 +130642,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 32,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGsG3N8E="
@@ -130896,7 +130903,7 @@
 											"containerExtending": true,
 											"left": 96,
 											"top": -360,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -130919,7 +130926,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 136,
-									"width": 81,
+									"width": 86,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5da2vGsHFGOA="
@@ -131715,7 +131722,7 @@
 											"containerExtending": true,
 											"left": -48,
 											"top": -168,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -131840,7 +131847,7 @@
 											"containerExtending": true,
 											"left": 108,
 											"top": -48,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -132027,7 +132034,7 @@
 											"containerExtending": true,
 											"left": 108,
 											"top": -84,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -132214,7 +132221,7 @@
 											"containerExtending": true,
 											"left": 120,
 											"top": -168,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
@@ -132584,7 +132591,7 @@
 											"containerExtending": true,
 											"left": -702,
 											"top": -954,
-											"width": 146,
+											"width": 157,
 											"height": 12,
 											"text": "(from UMLStandardProfile)"
 										},
