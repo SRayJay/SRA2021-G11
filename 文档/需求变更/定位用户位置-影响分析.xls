@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <title>影响分析</title>    <style type="text/css">    	br {mso-data-placement:same-cell;}        table.thin {            border-collapse: collapse;            border: .5pt solid #000;            background-color: white;            word-break: break-all;            word-wrap: break-word;            table-layout: fixed;        }        .tr_cls {            padding: 1px;            border-collapse: collapse;            border: .5pt solid #000;            background-color: white;        }        .td_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: left;            word-break: break-all;            word-wrap: break-word;            background-color: white;        }        .td_center_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: center;            background-color: white;        }        .td_right_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: right;            background-color: white;        }        .thead_cls {            cursor: pointer;            font-family: "SimHei";            background-color: white;        }        .th_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: center;            background-color: white;        }        #fixed {            position: fixed;            left: 400px;            top: 100px;        }        .title_report {            color: #03005C;            font-family: "SimHei";            font-size: 30px;            font-weight: 500;            line-height: 35px;            overflow: hidden;        }    </style></head><body>
+      		<!-- 	<div align="left" style="width:89%;font-weight: bold;">一、综合分析（分析&nbsp;<span style="color:blue">2</span>&nbsp;层）</div>
+   			<p/>
+			<br/>
+	   		<table border="1" cellpadding="0" cellspacing="0" width="95%">
+	   			<tr align="center">
+						<td style="font-family: 'SimHei';">序号</td>
+						<td style="font-family: 'SimHei';">被影响文档及版本</td>
+						<td style="font-family: 'SimHei';">被影响条目数量</td>
+						<td style="font-family: 'SimHei';">被影响条目比例</td>
+				</tr>
+				
+					
+		   				<tr>
+		   					<td align="center" width="40px">1</td>
+		   					<td align="left" width="400px"> 功能需求(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					10
+				   			</td> 
+		   					<td align="center" width="125px">9.9%</td>
+		   				</tr>
+		   			
+		   				<tr>
+		   					<td align="center" width="40px">2</td>
+		   					<td align="left" width="400px"> 界面原型(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					5
+				   			</td> 
+		   					<td align="center" width="125px">3.13%</td>
+		   				</tr>
+		   			
+		   				<tr>
+		   					<td align="center" width="40px">3</td>
+		   					<td align="left" width="400px"> 用户手册(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					5
+				   			</td> 
+		   					<td align="center" width="125px">4.72%</td>
+		   				</tr>
+		   			
+		   				<tr>
+		   					<td align="center" width="40px">4</td>
+		   					<td align="left" width="400px"> 测试用例(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					7
+				   			</td> 
+		   					<td align="center" width="125px">2.33%</td>
+		   				</tr>
+		   			
+					
+			</table>	
+			<p/>
+			<br/> -->
+			<BR>
+			<br>
+			<BR><div align="left" style="width:89%;font-weight: bold;">条目影响详细分析（分析2层）</div>
+			<BR>
+			<br>
+			<table width="95%">	
+				<tbody><tr align="center">
+						<td style="font-family: 'SimHei';">序号</td>
+						<td style="font-family: 'SimHei';">被影响的文档及版本</td>
+						<td style="font-family: 'SimHei';">造成影响文档及版本</td>
+						<td style="font-family: 'SimHei';">被影响条目数量</td>
+						<td style="font-family: 'SimHei';">被影响的条目比例</td>
+				</tr>
+		   		
+		   			
+		   				<tr>
+		   					<td align="center" width="40px">1</td>
+		   					<td align="left" width="400px"> 功能需求(当前版本)</td>
+		   					<td align="left" width="400px">功能需求(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					 10
+				   			</td> 
+		   					<td align="center" width="125px">9.9%</td>
+		   				</tr>
+		   			
+		   				<tr>
+		   					<td align="center" width="40px">2</td>
+		   					<td align="left" width="400px"> 界面原型(当前版本)</td>
+		   					<td align="left" width="400px">功能需求(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					 5
+				   			</td> 
+		   					<td align="center" width="125px">3.13%</td>
+		   				</tr>
+		   			
+		   				<tr>
+		   					<td align="center" width="40px">3</td>
+		   					<td align="left" width="400px"> 用户手册(当前版本)</td>
+		   					<td align="left" width="400px">功能需求(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					 5
+				   			</td> 
+		   					<td align="center" width="125px">4.72%</td>
+		   				</tr>
+		   			
+		   				<tr>
+		   					<td align="center" width="40px">4</td>
+		   					<td align="left" width="400px"> 测试用例(当前版本)</td>
+		   					<td align="left" width="400px">功能需求(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					 7
+				   			</td> 
+		   					<td align="center" width="125px">2.33%</td>
+		   				</tr>
+		   			
+		   		
+	   		</tbody></table>
+	   		
+	   		<BR><BR>
+	   		<BR><div align="left" style="width:89%;font-weight: bold;">影响全过程</div>
+		    <table width="95%">
+			    <tbody><tr>
+			    	<td align="center" style="font-family: 'SimHei';">序号</td>
+			    	<td align="left" style="font-family: 'SimHei';">源条目标识</td>
+			    	<td align="center" style="font-family: 'SimHei';">源条目内容</td>
+			    	<td align="center" style="font-family: 'SimHei';">级联影响（全过程）</td>
+			    	<td align="left" style="font-family: 'SimHei';">被影响的文档</td>
+			    	<td align="left" style="font-family: 'SimHei';">被影响的条目标识</td>
+			    	<td align="left" style="font-family: 'SimHei';">被影响的条目标题</td>
+			    </tr>
+			  
+			  
+			    
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">1</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">
+		  							UC-48
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">上传动态</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">2</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">界面原型<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=db83f35fd17011eb808b00fffa75b521&amp;formatItemUid=4e802ec356584976a11d4149d55f7ce8" target="_blank">
+		  							UI-44
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APPUI-039：首页隐藏交互点</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">3</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">
+		  							UC-8
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">查看首页地图</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">4</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户手册<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=ed90eaadd17011eb808b00fffa75b521&amp;formatItemUid=9ae36b48d44f490c9785973be02b22b9" target="_blank">
+		  							UM-61
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APP定位用户地理位置</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">5</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">界面原型<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=db83f35fd17011eb808b00fffa75b521&amp;formatItemUid=c7ea3a9e70a84fbc8d38565d5eedd094" target="_blank">
+		  							UI-42
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APPUI-037：地图缩小</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">6</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">测试用例<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=f76d648dd17011eb808b00fffa75b521&amp;formatItemUid=fd5da0f06d5742888bdae543d1ea269a" target="_blank">
+		  							TC-57
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">TEST-049</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">7</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户手册<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=ed90eaadd17011eb808b00fffa75b521&amp;formatItemUid=041d7ddd0f5a474cb0fedce232f51b6e" target="_blank">
+		  							UM-60
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APP上传动态</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">8</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户手册<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=ed90eaadd17011eb808b00fffa75b521&amp;formatItemUid=194d241d0ff3418092ee17b6a5150a80" target="_blank">
+		  							UM-28
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APP添加拍摄图片</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">9</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">界面原型<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=db83f35fd17011eb808b00fffa75b521&amp;formatItemUid=3c95966b721d4b508aea6851a2ae761b" target="_blank">
+		  							UI-56
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APPUI-051：发布动态</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">10</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">界面原型<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=db83f35fd17011eb808b00fffa75b521&amp;formatItemUid=585a889ab64a46b9b1dad0b537bb266b" target="_blank">
+		  							UI-57
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APPUI-052：发布动态-设置可见性</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">11</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">测试用例<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=f76d648dd17011eb808b00fffa75b521&amp;formatItemUid=7b19b21697b74e76898ab85728893902" target="_blank">
+		  							TC-88
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">TEST-078</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">12</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">测试用例<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=f76d648dd17011eb808b00fffa75b521&amp;formatItemUid=87eaf14741b54d44b3ba6de4be707630" target="_blank">
+		  							TC-89
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">TEST-079</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">13</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">测试用例<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=f76d648dd17011eb808b00fffa75b521&amp;formatItemUid=a904b490a3574ff18a7ae6e0f5756f49" target="_blank">
+		  							TC-85
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">TEST-075</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">14</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">测试用例<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=f76d648dd17011eb808b00fffa75b521&amp;formatItemUid=c2f85a7c842a44f9b11d45cf1393a1e3" target="_blank">
+		  							TC-86
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">TEST-076</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">15</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=23e5ef80851e45888534b8d45e228ffa" target="_blank">UC-48</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">测试用例<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=f76d648dd17011eb808b00fffa75b521&amp;formatItemUid=fd2bad1a2bc840faaf82d41e8be6d1b5" target="_blank">
+		  							TC-87
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">TEST-077</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">16</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">界面原型<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=db83f35fd17011eb808b00fffa75b521&amp;formatItemUid=05457d10902a456ca4101e99cfdf24c9" target="_blank">
+		  							UI-52
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APPUI-047：底栏点击加号</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">17</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="
+			   						
+			   						
+			   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+		  							UC-105
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">18</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=410613e9eb544b2e9014acee70e46fb6" target="_blank">
+		  							UC-62
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">筛选钓友</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">19</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=47aad0071d0a460ab1182be29a674af9" target="_blank">
+		  							UC-10
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">查看动态列表</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">20</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=4d306c5832c54842ab3fe77ec3227c04" target="_blank">
+		  							UC-50
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">筛选约钓</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">21</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户手册<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=ed90eaadd17011eb808b00fffa75b521&amp;formatItemUid=5327618b03f94d5d8451f9ebe29d2993" target="_blank">
+		  							UM-38
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APP查看地图</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">22</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=aa988ad1b55d4fbd945ed49d9eb83508" target="_blank">
+		  							UC-17
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">筛选钓点</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">23</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=be00d33660e643b6a9c0dd6e63e07108" target="_blank">
+		  							UC-9
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">查看约钓列表</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">24</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户手册<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=ed90eaadd17011eb808b00fffa75b521&amp;formatItemUid=c1ffb038f1414338a0170fe083f50616" target="_blank">
+		  							UM-21
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">APP页面返回</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">25</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=d1ee3805d2314637a6299cb01a64ce70" target="_blank">
+		  							UC-39
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">筛选动态</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">26</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">测试用例<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=f76d648dd17011eb808b00fffa75b521&amp;formatItemUid=e9493895ca7a435ca8687867536f3fcd" target="_blank">
+		  							TC-56
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">TEST-048</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">27</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">
+			   						UC-105
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">定位用户位置</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=373adfb4637d4760837c5a1742a286bd" target="_blank">UC-105</a><br>------&gt;<br>功能需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=6db2adda25b94f9baeff466a5981674e" target="_blank">UC-8</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">功能需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=5814c3faaf494914a4cf55ee8a44b3b6&amp;formatItemUid=f0a3c6680a08414992ccd507a7135e02" target="_blank">
+		  							UC-31
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">筛选渔具店</div></td>
+						</tr>			    	
+			    	
+			    
+		    </tbody></table>
+		    <BR>
+<!--  		    <div align="left" style="width:89%;font-weight: bold;">条目间直接影响</div>
+		    <table border="1" cellpadding="0" cellspacing="0">
+  			<tr align="center">
+	  			<td style="font-family: 'SimHei';">序号</td>
+	  			<td style="font-family: 'SimHei';">源文档/版本</td>
+	  			<td style="font-family: 'SimHei';">源条目标识</td>
+	  			<td style="font-family: 'SimHei';">源条目概要</td>
+	  			<td style="font-family: 'SimHei';">文档/版本</td>
+	  			<td style="font-family: 'SimHei';">条目标识</td>
+	  			<td style="font-family: 'SimHei';">条目标题</td>
+  			</tr>
+  			
+  		</table>-->
+	   		<BR></body></html>
